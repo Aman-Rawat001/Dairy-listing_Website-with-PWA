@@ -1,0 +1,12 @@
+.Footer {
+  background-color: #db9516;
+  font-weight: 500;
+  /* box-shadow: -1px 1px 3px 0px darkgrey; */
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 575px) {
+  .Footer {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+}

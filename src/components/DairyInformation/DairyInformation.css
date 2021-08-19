@@ -1,0 +1,37 @@
+.dairyInfo .locationTags .tags {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #e6e6e6;
+}
+.dairyInfo .sanitizerNote .titleNote {
+  background-color: gray;
+  color: white;
+  font-weight: 500;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.dairyInfo .sanitizerNote {
+  background-color: #e6e6e6;
+  border-radius: 12px;
+}
+.ourCollection .collectionBox {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.ourCollection .content1 {
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #585858;
+}
+.ourCollection .content2 {
+  color: #585858;
+}
+.dairyInfo .filters > h2 {
+  font-weight: 700;
+  color: #585858;
+}
+.notePara {
+  font-weight: 500;
+}

@@ -1,0 +1,57 @@
+.modalBg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #0000007a;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  justify-content: center;
+  align-items: center;
+}
+.bookNowMain {
+  width: 33%;
+  border-radius: 11px;
+  z-index: 99;
+  background-color: white;
+  box-shadow: 2px 4px 7px 1px #486666;
+  padding: 2rem;
+  transition: top 0.5s linear;
+}
+.closeModalBtn {
+  border: none;
+  position: absolute;
+  background: no-repeat;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.closeModalBtn:hover {
+  border-radius: 50%;
+  background-color: rgb(240, 239, 239);
+}
+.closeModalDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.bookNowMain .switchDairyCode {
+  display: flex;
+  justify-content: space-between;
+}
+.bookNowMain .submitBtn {
+  background-color: #1ab64f;
+  color: white;
+}
+.bookNowMain .submitBtn:hover {
+  background-color: #159b42;
+}
+.font500 {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 575px) {
+  .bookNowMain {
+    width: 90%;
+  }
+}

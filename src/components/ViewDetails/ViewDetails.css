@@ -1,0 +1,46 @@
+.viewDetails .detailsImage img {
+  width: 100%;
+}
+.viewDetails .detailsTitle {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.viewDetails .detailsRating .goodRating {
+  color: orange;
+}
+.viewDetails .detailsPara {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.viewDetails .detailsPara .detailsSpan {
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+
+.varieties .varitiesAvailable {
+  display: flex;
+  align-items: center;
+}
+.content3Box .vaccinatedWithDose {
+  color: #ff5151;
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 10rem;
+}
+.vaccinatedWithDose .vaccinatedWithDosePara {
+  background-color: #f8f8f8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 3px;
+  border: 1px solid darkgray;
+  font-size: 0.8rem;
+}
+.content3Box .leftDetailsBox {
+  display: flex;
+}
+@media screen and (max-width: 575px) {
+  .content3Box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

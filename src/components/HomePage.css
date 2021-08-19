@@ -1,0 +1,20 @@
+.HomePage {
+  /* opacity: 0.5;
+  filter: blur(1px); */
+}
+.HomePage .noteHeader {
+  background-color: #db9516;
+  position: sticky;
+  top: 0;
+}
+.HomePage .noteHeader p {
+  font-weight: 500;
+  box-shadow: -1px 1px 3px 0px darkgrey;
+  font-size: 0.9rem;
+}
+.HomePage .leftContent {
+  border-right: 2px solid #ccc;
+}
+.leftContent:empty {
+  background-color: gray;
+}
